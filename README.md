@@ -1,6 +1,7 @@
 # USB-Dumper
 
 USB Dumper 的 C++ GUI 实现
+
 只是把框架搭建了起来，且只实现了插入U盘即将文件拷贝至 C:\USB 目录的功能（不用 GUI 框架的桌面开发令人抓狂，我也不知道我怎么想的）
 
 这是一个 Visual Studio 2019 生成的工程，下载后运行 USB_Dumper.sln 即可在 VS 中打开，需要在项目属性的 C++ 预处理器定义中添加 _CRT_SECURE_NO_WARNINGS
@@ -17,7 +18,6 @@ USB Dumper 的 C++ GUI 实现
 2. 该进程仍然可以在任务管理器中被发现，可以考虑 hook Win API 来隐藏 USB Dumper 进程
 3. C:\USB 目录太过明显，可以考虑生成随机字符串作为目录名，并将该目录藏得越深越好
 4. 定期删除备份目录下的文件（成功发送给攻击者的那部分），并根据磁盘剩余容量情况动态更改备份目录路径
-
 
 
 PS. 仅供学习交流使用，USE AT YOUR OWN RISK
