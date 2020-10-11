@@ -1,6 +1,6 @@
 # USB-Dumper
 
-USB Dumper 的 C++ GUI 实现，原理分析在 <a href="https://in1nit1t.github.io/2020/10/11/%E6%B7%B1%E5%85%A5%E5%89%96%E6%9E%90USB-Dumper%E5%8E%9F%E7%90%86/" target="_blank">博客</a> 中
+USB Dumper 的 C++ GUI 实现，原理分析在 <a href="https://in1nit1t.github.io/2020/10/11/%E6%B7%B1%E5%85%A5%E5%89%96%E6%9E%90USB-Dumper%E5%8E%9F%E7%90%86/">博客</a> 中
 
 只是把框架搭建了起来，且只实现了插入U盘即将文件拷贝至 C:\USB 目录的功能（不用 GUI 框架的桌面开发令人抓狂，我也不知道我怎么想的）
 
